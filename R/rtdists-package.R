@@ -21,5 +21,8 @@
 #' @docType package
 #' @title The rtdists Package
 #' @author Henrik Singmann, Scott Brown, Matthew Gretton, Andrew Heathcote, with contributions from Andreas Voss, Jochen Voss, Andrew Terry
-#' @keywords package
+#' @keywords package 
+#' 
+#' @export _rtdists_RcppExport_registerCCallable
+#' 
 NULL

@@ -17,3 +17,7 @@ r_fastdm <- function(num_values, params, precision = 3, stop_on_error = TRUE) {
     .Call(`_rtdists_r_fastdm`, num_values, params, precision, stop_on_error)
 }
 
+# Register entry points for exported C++ functions
+methods::setLoadAction(function(ns) {
+    .Call('_rtdists_RcppExport_registerCCallable', PACKAGE = 'rtdists')
+})

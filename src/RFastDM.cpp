@@ -18,6 +18,8 @@
  * 02110-1301 USA.
  */
 
+// [[Rcpp::interfaces(r, cpp)]]
+
 #include <Rcpp.h>
 #include <iostream>
 #include <sstream>
